@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include head.html %}
+</head>
+<body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
+
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% include analytics.html %}
+    
+</body>
+</html>

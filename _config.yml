@@ -1,0 +1,23 @@
+name: Cpt Pugwash blog
+description: The hacking adventures of Cpt Pugwash
+meta_description: "The hacking adventures of Cpt Pugwash"
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://cptpugwash.github.io'
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
+
+# Permalinks
+permalink: /post/:title
+
+# Details for the RSS feed generator
+url:            'https://cptpugwash.github.io'
+author:         'Cpt Pugwash'
+
+# local dev
+host: 0.0.0.0
+port: 5000
