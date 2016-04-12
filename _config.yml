@@ -3,7 +3,7 @@ description: The hacking adventures of Cpt Pugwash
 meta_description: "The hacking adventures of Cpt Pugwash"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
