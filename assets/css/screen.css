@@ -374,6 +374,7 @@ kbd {
         0 1px 0 0 #fff inset;
 }
 
+
 table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -407,7 +408,7 @@ table tbody + tbody { border-top: #EFEFEF 2px solid; }
 
 table table table { background-color: #FFF; }
 
-/*
+
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
     background-color: #F6F6F6;
@@ -416,7 +417,7 @@ table tbody > tr:nth-child(odd) > th {
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
    background: transparent;
-}*/
+}
 
 iframe, .fluid-width-video-wrapper {
     display: block;
