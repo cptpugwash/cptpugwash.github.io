@@ -21,12 +21,14 @@ print_hi('Tom')
 
 test
 
+<figure class="lineno-container">
 {% highlight python linenos=table %}
 def stuff(stuffing):
 	print stuffing
 
 # test comment
 {% endhighlight %}
+</figure>
 
 test
 
