@@ -8,7 +8,7 @@ logo: false
 paginate: 15
 baseurl: /
 domain_name: 'https://cptpugwash.github.io'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-77069050-1'
 gems: [jekyll-paginate]
 
 # Permalinks
