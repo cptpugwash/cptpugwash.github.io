@@ -21,14 +21,14 @@ Some techniques involve writing a file to disk, others copy code directly into a
 ### Payloads
 To test our scripts out we will use msfvenom to generate payloads to be injected. Msfvenom is part of the Metasploit framework used to generate shellcode payloads and encode them, it can also generate binary files such as .exe and .dll.
 
-    <figure class="lineno-container">
+<figure class="lineno-container">
     {% highlight python linenos=table %}
     # used for DLL injection
     msfvenom -a x86 --platform windowns -p windows/exec CMD=calc.exe -f dll -o payload.dll
     # used for direct code injection
     msfvenom -a x86 --platform windowns -p windows/exec CMD=calc.exe -f python -o payload.py
     {% endhighlight %}
-    </figure>
+</figure>
 
 ## DLL Injection
 DLL injection is a classic method used on windows, it basically forces a process to load a malicious DLL, once loaded DLLMain is executed automatically by the OS which executes the payload. So in order to perform DLL injection we just need to get the target process to call the LoadLibrary function.
