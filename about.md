@@ -11,8 +11,8 @@ Currently finishing off the practical malware analysis book and will sort out th
 
 Books I've gone through that are pretty good:
 
-  Practical malware analysis
-  The web application hackers handbook
-  The hidden language of computer hardware and software / Code
-  Black hat python
-  Violent python
+  Practical malware analysis  
+  The web application hackers handbook  
+  The hidden language of computer hardware and software / Code  
+  Black hat python  
+  Violent python  
