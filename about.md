@@ -3,9 +3,9 @@ layout: page
 title: About me 
 ---
 
-I am a graduate Ethical Hacking and Countermeasures masters student with nearly 4 years experience as an IT engineer in various roles. Looking for a junior security role within the UK preferably.
+Just another generic hacking blog, just about things I've made notes on and made more presentable.
 
-This is just another hacking blog to contain finished posts about stuff I've been up to. It’s a bit bare at the moment, got a load of markdown files with a mess of notes in them that need to be sorted.
+I am a graduate Ethical Hacking and Countermeasures masters student with more than 5 years experience as an IT engineer in various roles. Looking for a junior security role within the UK preferably.
 
 Currently finishing off the practical malware analysis book and will sort out the mess of lab notes and upload at some point. Also working my way though vulnhub VMs to practise for the OSCP cert.
 
