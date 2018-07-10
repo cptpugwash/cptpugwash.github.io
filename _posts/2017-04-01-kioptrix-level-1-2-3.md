@@ -10,7 +10,7 @@ Download and unzip the vm, then mount the .vmdk file as storage in your vm confi
 
 We also need to add the web apps hostname to hosts, this should be done after finding the host on the network.
 
-	echo "192.168.56.102 kioptrix3.com" >> /etc/hosts
+`echo "192.168.56.102 kioptrix3.com" >> /etc/hosts`
 
 
 # Kioptrix: Level 1.2 (#3)
