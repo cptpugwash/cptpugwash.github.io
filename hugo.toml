@@ -1,7 +1,7 @@
 baseURL = 'https://cptpugwash.github.io/'
 locale = 'en-gb'
 title = 'Blog'
-theme = 'Paper'
+theme = 'paper'
 
 [markup.highlight]
   style = "witchhazel"       # browse styles at xyproto.github.io/splash/docs/
