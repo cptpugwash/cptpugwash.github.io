@@ -1,5 +1,42 @@
-_site
-.DS_Store
-*.swp
-.sass-cache
+# Hugo build output
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+.hugo_build.lock
 
+# Hugo stats (uncomment if you don't use it for PurgeCSS/Tailwind)
+# hugo_stats.json
+
+# Hugo binary downloaded locally (some setups do this)
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Node (themes or pipelines using npm, PostCSS, Tailwind)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+.cache/

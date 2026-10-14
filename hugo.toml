@@ -1,0 +1,16 @@
+baseURL = 'https://cptpugwash.github.io/'
+locale = 'en-gb'
+title = 'Blog'
+theme = 'Paper'
+
+[markup.highlight]
+  style = "witchhazel"       # browse styles at xyproto.github.io/splash/docs/
+  lineNos = false         # turn on per block instead
+  tabWidth = 4
+
+[params]
+  ShowCodeCopyButtons = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
